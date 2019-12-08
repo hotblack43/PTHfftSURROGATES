@@ -12,10 +12,10 @@ getSL(Nboot,method,series1,series2)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
-}
-}
+  \item{Nboot}{Number of Monte-Carlo phase-scrambling trials to perform}
+  \item{method}{pearson, kendall or spearman}
+  \item{series1,series2}{the two series of numbers to correlate}
+  }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
