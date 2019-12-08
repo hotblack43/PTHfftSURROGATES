@@ -1,0 +1,14 @@
+Package: PTHfftSURROGATES
+Type: Package
+Title: Establishes correlation significance levels using phase
+        scrambling methods.
+Version: 0.1.0
+Author: Peter Thejll
+Maintainer: Peter Thejll <pth@dmi.dk>
+Description: Two sided significance level of correlations. Based on phase scramble technqiues and FFTs. Specify method=pearson, kendall or spearman correlations.
+License: GPL-3.0
+Encoding: UTF-8
+LazyData: true
+Imports: gtools
+NeedsCompilation: no
+Packaged: 2019-12-08 14:18:53 UTC; pth
