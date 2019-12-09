@@ -12,8 +12,8 @@ phase_scramble(fft_of_signal)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{fft_of_signal}{
+The forward Fourier Transform of the timeseries: fft_of_signal <- fft(signal)
 }
 }
 \details{
@@ -22,12 +22,12 @@ phase_scramble(fft_of_signal)
 \value{
 %%  ~Describe the value returned
 %%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
+ \item{series_scr}{The phase-scrambled real-valued series}
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
 \references{
-Theiler reference here as well as more moderns
+J. Theiler, D. Prichard, Constrained-realization Monte-Carlo method for hypothesis testing, Physica D 94 (1996) 221–235
 }
 \author{
 Peter Thejll and Bo Christiansen
@@ -42,15 +42,8 @@ Peter Thejll and Bo Christiansen
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
-}
+fft_signal <- fft(series)
+series_scrambled <- phase_scramble(fft_signal)}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
