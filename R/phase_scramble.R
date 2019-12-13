@@ -1,5 +1,5 @@
 phase_scramble <- function(fft_signal){
-# Perform 'phase-scrambling' on an input series
+# Perform 'phase-scrambling' on an input series given its FFT
 # Uses code from BOC
 
   nmax <- length(fft_signal)
