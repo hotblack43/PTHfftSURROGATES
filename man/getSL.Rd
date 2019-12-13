@@ -63,6 +63,7 @@ Robs <- cor(series1,series2,method=method_str)
 print(c("The observed correlation is ",Robs))
 SL <- getSL(Nboot,method=method_str,series1,series2)
 print(c("The p-value of the observed correlation is",SL))
+
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
