@@ -2,7 +2,7 @@
 \alias{phase_scramble2}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-function to perform phase scrambling
+function to perform phase scrambling - based on an input series (that gets overwritten)
 }
 \description{
 A time series can be 'phase scrambled' by randomly reordering the Fourier components in the frequency domian, and then inverse Fourier transforming. This procedure will produce time series that are unrelated to the input time series in all ways other than having the same power spectrum.
